@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @AadityaChachra
-- 👀 I’m interested in Coding, music (piano 🎹) and playing basketball 🏀
+- 👀 I’m interested in Coding, music(playing piano 🎹) and basketball. 🏀
 - 🌱 I’m currently learning Data Structures & Algorithms and Web Development.
 - 💞️ I’m looking to collaborate on front-end web development projects.
 - 📫 How to reach me - My website : https://aadityachachra.wixsite.com/aadityachachra ; My Linkedin Profile : www.linkedin.com/in/aadityachachra
