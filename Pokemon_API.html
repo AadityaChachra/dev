@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Pokemon API </title>
+    <script>
+      async function getPokemonData() {
+        let input = prompt("Enter the Pokemon number here:");
+        console.log(input);
+        const pokemonId = input;
+        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`);
+        const pokemonData = await response.json();
+        const pokemonName = pokemonData.name;
+        const pokemonImage = pokemonData.sprites.front_default;
+        document.getElementById("pokemonName").innerHTML = pokemonName;
+        document.getElementById("pokemonImage").src = pokemonImage;
+      }
+    </script>
+  </head>
+  <body onload="getPokemonData()">
+    <h1 id="pokemonName"></h1>
+    
+  </body>
+</html>
